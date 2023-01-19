@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bookmarkEntry {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-height:100rem;
+  max-width: 60rem;
+  background-position: center center;
+  background-size:cover;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  box-sizing: content-box;
+  border: solid white;
+  overflow:auto;
+  font-size: larger;
+}

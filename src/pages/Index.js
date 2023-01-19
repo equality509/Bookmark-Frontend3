@@ -1,5 +1,5 @@
 import { useLoaderData, Form } from "react-router-dom";
-
+import "../index.css";
 
 
 function Index(props) {
@@ -8,10 +8,10 @@ function Index(props) {
     return (
     <div>
         <h2>Create a New Bookmark</h2>
-        <Form action="/create" method="post">
-            <input type="input" name="title" placeholder="Name" />
-            <input type="input" name="url" placeholder="http://" />
-            <input type="submit" value="Create" />
+        <Form className= 'form' action="/create" method="post">
+            <input className= 'search' type="input" name="title" placeholder="Name" />
+            <input className= 'search' type="input" name="url" placeholder="http://" />
+            <input className= 'search' type="submit" value="Create" />
         </Form>
 
         <h2>Bookmarks</h2>
