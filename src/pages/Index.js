@@ -6,7 +6,7 @@ function Index(props) {
 
     return (
     <div>
-        <h2>Create a New Bookmark</h2>
+        <h2>Create a New Bookmark </h2>
         <Form action="/create" method="post">
             <input type="input" name="title" placeholder="Name" />
             <input type="input" name="url" placeholder="http://" />
